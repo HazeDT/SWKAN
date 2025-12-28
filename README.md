@@ -13,10 +13,10 @@ GWAN:
   author={Li, Tianfu and Chen, Junfan and Liu, Tao and Kang, Wei and Chen, Jiupeng and Wang, Zhe},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
   title={SWKAN: An Ante-Hoc and Post-Hoc Explainable Spectral Enhanced Wavelet Kolmogorov–Arnold Networks for Reliable Fault Diagnosis}, 
-  year={2026},
-  volume={},
+  year={2025},
+  volume={74},
   number={},
-  pages={},
-  doi={}}
+  pages={3568913},
+  doi={10.1109/TIM.2025.3643052}}
 
 
