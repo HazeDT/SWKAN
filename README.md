@@ -1,26 +1,21 @@
 # GWAN
-This is the code library for the implementation of GWAN. [A Kolmogorov-Arnold-informed Interpretable Graph Wavelet Activation Network for Machine Fault Diagnosis](https://ieeexplore.ieee.org/abstract/document/10079151).
+This is the code library for the implementation of GWAN. [SWKAN: An Ante-Hoc and Post-Hoc Explainable Spectral Enhanced Wavelet Kolmogorov–Arnold Networks for Reliable Fault Diagnosis](https://ieeexplore.ieee.org/document/11298276).
 
 ![SWKAN-based-fault diagnosis](https://github.com/HazeDT/SWKAN/tree/main/SWKAN/SWKAN.jpg)
 
 
 # Note
-IIn GWAN, two critical components are designed, that is, graph wavelet activation convolution (GWAConv) layer and wavelet attention (WavAtt) layer. In GWAConv, the graph message passing is achieved using the wavelet Kolmogorov-Arnold layer with learnable scale and translation parameters to capture the robust fault features. While WavAtt layer decomposes the raw signal into low-frequency and high-frequency components to force the model to focus on the low-frequency components which is helpful for fault diagnosis.
-# sample data
-The data for running this code can be found in [PHMGNNBenchmark](https://github.com/HazeDT/PHMGNNBenchmark)
-
-# Implementation
-python ./GWAN_master/train_graph.py --model_name GWAN  --data_name XJTUSpurgearRadius --data_dir ./datasets/XJTUSpurgearRadius_constant.pkl
+In SWKAN, a spectral enhancement module (SEM) is designed to suppress noise and highlight informative spectral components of measured signals, and then the wavelet Kolmogorov-Arnold module (WKAM) with learnable scale parameter and translation parameter is proposed to achieve ante-hoc explainable feature extraction.
 
 
 # Citation
 
 GWAN:
 @ARTICLE{10079151,
-  author={Li, Tianfu and Sun, Chuang and Zhao, Zhibin and Liu, Tao and Chen, Xuefeng and Yan, Ruqiang},
-  journal={IEEE Transactions on Systems, Man and Cybernetics, Systems}, 
-  title={A Kolmogorov-Arnold-informed Interpretable Graph Wavelet Activation Network for Machine Fault Diagnosis}, 
-  year={206},
+  author={Li, Tianfu and Chen, Junfan and Liu, Tao and Kang, Wei and Chen, Jiupeng and Wang, Zhe},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={SWKAN: An Ante-Hoc and Post-Hoc Explainable Spectral Enhanced Wavelet Kolmogorov–Arnold Networks for Reliable Fault Diagnosis}, 
+  year={2026},
   volume={},
   number={},
   pages={},
