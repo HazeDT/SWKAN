@@ -1,7 +1,7 @@
 # SWKAN
 This is the code library for the implementation of GWAN. [SWKAN: An Ante-Hoc and Post-Hoc Explainable Spectral Enhanced Wavelet Kolmogorov–Arnold Networks for Reliable Fault Diagnosis](https://ieeexplore.ieee.org/document/11298276).
 
-![SWKAN-based-fault diagnosis](https://github.com/HazeDT/SWKAN/tree/main/SWKAN/SWKAN.jpg)
+[SWKAN-based-fault diagnosis](https://github.com/HazeDT/SWKAN/tree/main/SWKAN/SWKAN.jpg)
 
 
 # Note
