@@ -4,7 +4,7 @@ This is the code library for the implementation of GWAN. [SWKAN: An Ante-Hoc and
 ![SWKAN-based-fault diagnosis](https://github.com/HazeDT/SWKAN/blob/main/SWKAN/SWKAN.jpg)
 
 # Note
-In SWKAN, a spectral enhancement module (SEM) is designed to suppress noise and highlight informative spectral components of measured signals, and then the wavelet Kolmogorov-Arnold module (WKAM) with learnable scale parameter and translation parameter is proposed to achieve ante-hoc explainable feature extraction.
+In SWKAN, a spectral enhancement module (SEM) is designed to suppress noise and highlight informative spectral components of measured signals, and then the wavelet Kolmogorov-Arnold module (WKAM) with learnable scale parameter and translation parameter is proposed to achieve ante-hoc explainable feature extraction.  Its extend version in graph neural network can be found in [A Kolmogorov–Arnold-Informed Interpretable Graph Wavelet Activation Network for Machine Fault Diagnosis](https://ieeexplore.ieee.org/document/11333912)
 
 
 # Citation
