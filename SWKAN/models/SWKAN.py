@@ -141,9 +141,9 @@ class WKANLinear(nn.Module):
         return wavelet_output
 
 
-class WKAN(nn.Module):
+class SWKAN(nn.Module):
     def __init__(self, in_channel, out_channel, wavelet_type='mexican_hat'):
-        super(WKAN, self).__init__()
+        super(SWKAN, self).__init__()
         self.wavelet_type = wavelet_type
 
         self.adaptive_block1 = Adaptive_Spectral_Block(dim=1024)
@@ -165,3 +165,4 @@ class WKAN(nn.Module):
         out = self.KAN(residual_out1)
         # return out, out2
         return out
+
